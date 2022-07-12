@@ -1,0 +1,90 @@
+CRITICAL - 2022-07-12 06:01:43 --> Undefined variable $user
+in APPPATH\Views\index.php on line 23.
+ 1 APPPATH\Views\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(18): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:26:36 --> Undefined variable $user
+in APPPATH\Views\index.php on line 23.
+ 1 APPPATH\Views\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(18): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 06:26:38 --> Undefined variable $user
+in APPPATH\Views\index.php on line 23.
+ 1 APPPATH\Views\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(18): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 07:57:56 --> Undefined variable $users
+in APPPATH\Views\user_view1.php on line 35.
+ 1 APPPATH\Views\user_view1.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'APPPATH\\Views\\user_view1.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user_view1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user_view1', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(74): view('user_view1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->list1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 08:01:19 --> Undefined variable $user1
+in APPPATH\Views\user_view1.php on line 42.
+ 1 APPPATH\Views\user_view1.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user1', 'APPPATH\\Views\\user_view1.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\user_view1.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('user_view1', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(74): view('user_view1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->list1('ROOTPATH\\public')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 08:16:01 --> Call to undefined method App\Models\UserModel::update1
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\UserCrud.php(106): CodeIgniter\Model->__call('update1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->update1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 08:16:46 --> Call to undefined method App\Models\UserModel::update1
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\UserCrud.php(106): CodeIgniter\Model->__call('update1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->update1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 08:19:06 --> Call to undefined method App\Models\UserModel::update1
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\UserCrud.php(106): CodeIgniter\Model->__call('update1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->update1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 08:19:35 --> Call to undefined method App\Models\UserModel::update1
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\UserCrud.php(106): CodeIgniter\Model->__call('update1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->update1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-12 10:47:27 --> Call to undefined method App\Models\UserModel::update1
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\UserCrud.php(106): CodeIgniter\Model->__call('update1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UserCrud->update1()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

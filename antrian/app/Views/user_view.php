@@ -5,11 +5,14 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Codeigniter 4 CRUD App Example - positronx.io</title>
+  <title>TIKET BUS</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
+<center><h1>TIKET EKONOMI</h1></center>
 <div class="container mt-4">
+<div class="d-flex justify-content-end">
+	</div>
     <div class="d-flex justify-content-end">
     <a href="<?php echo ('/uasloket/antrian/public/user-form') ?>" class="btn btn-success mb-2">Add User</a>
 	</div>
@@ -19,7 +22,7 @@
       }
      ?>
   <div class="mt-3">
-     <table class="table table-bordered" id="list">
+     <table class="table table-bordered" id="users-list">
        <thead>
           <tr>
              <th>User Id</th>

@@ -38,13 +38,21 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // CRUD RESTful Routes
 $routes->get('index', 'UserCrud::index');
-$routes->get('users-list', 'UserCrud::list');
+$routes->get('users-list', 'UserCrud::list/');
 $routes->get('user-form', 'UserCrud::create');
 $routes->post('submit-form', 'UserCrud::store');
 $routes->get('edit-view/(:num)', 'UserCrud::singleUser/$1');
 $routes->post('update', 'UserCrud::update');
 $routes->get('delete/(:num)', 'UserCrud::delete/$1');
 $routes->get('pritn/(:num)', 'UserCrud::print/$1');
+
+$routes->get('users-list1', 'UserCrud::list1/');
+$routes->get('user-form1', 'UserCrud::create1');
+$routes->post('submit-form1', 'UserCrud::store1');
+$routes->get('edit-view1/(:num)', 'UserCrud::singleUser1/$1');
+$routes->post('update1', 'UserCrud::update1');
+$routes->get('delete1/(:num)', 'UserCrud::delete1/$1');
+$routes->get('pritn1/(:num)', 'UserCrud::print1/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
